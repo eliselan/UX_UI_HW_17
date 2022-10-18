@@ -1,0 +1,62 @@
+.navigation {
+   background-color: #05195F;
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+}
+
+
+.inline-block {
+    color: white;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    align-items: center;
+    justify-items: right;
+    padding-right: 30px
+}
+
+li {
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Kumbh_Sans";
+}
+
+@font-face {
+    font-family: "Kumbh_Sans";
+        src: url("Kumbh_Sans/KumbhSans-VariableFont_wght.ttf")
+    }
+
+.content {
+    justify-content: center;
+    min-height: 600px;
+    padding-left: 200px;
+    font-family: "Kumbh_Sans";
+    position: relative;
+    background-image: url("../images/hero_image.png");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position-x: 120px;
+}
+
+.p {
+    position: absolute;
+    justify-self: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.foot {
+    background-color: #05195F;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    align-items: center;
+
+}
+.socials {
+    justify-content: flex-end;
+    padding: 30px
+}
