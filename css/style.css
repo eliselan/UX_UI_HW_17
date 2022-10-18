@@ -46,7 +46,7 @@ li {
 }
 
 .herotext {
-    max-width: 40%;
+    max-width: 600px;
     justify-items: center;
     position: absolute;
     padding-left: 350px;
