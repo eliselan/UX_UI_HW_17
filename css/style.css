@@ -16,7 +16,7 @@
     padding-right: 30px
 }
 
-li {
+.inline-block li {
     padding: 10px;
     font-size: 25px;
     font-family: "Kumbh_Sans";
@@ -30,34 +30,81 @@ li {
 .content {
     min-height: 600px;
     font-family: "Kumbh_Sans";
-    position: relative;
+    display: flex;
     background-image: url("../images/hero_image.png");
     background-size: 1100px;
     background-repeat: no-repeat;
     background-position-x: 150px;
     background-position-y: 50px;
+    outline: 1px solid red;
 }
 
 .p {
-    position: absolute;
-    justify-self: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
 .herotext {
     max-width: 600px;
-    justify-items: center;
-    position: absolute;
-    padding-left: 349px;
+    min-width: 600px;
+    margin-left: 350px;
+    justify-content: center;
+    align-items: center;
     padding-top: 110px;
     font-size: larger;
+}
+
+.mySkills {
+    background-image: url("/images/myskills_img.png");
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 50px;
+    outline: 1px solid red;
+    min-height: 700px;
+}
+
+.mySkills h2 {
+    padding-left: 400px;
+    padding-top: 170px;
+    outline: 1px solid red;
+}
+
+.flexContainer {
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    outline: 1px solid red;
+}
+
+.skills {
+    float: left;
+}
+
+.tools {
+    float: right;
+}
+
+.skills li {
+    column-count: 2;
+    font-size: small;
+    outline: 1px solid red;
+
+}
+
+.tools li {
+    column-count: 2;
+    font-size: small;
+    outline: 1px solid red;
+    max-height: 30px;
 }
 
 .foot {
     background-color: #05195F;
     display: flex;
-    justify-content: space-between;
     color: white;
     text-align: left;
     padding-left: 30px;
