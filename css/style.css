@@ -9,6 +9,9 @@ html {
    justify-content: space-between;
 }
 
+.logo {
+    color: white;
+}
 
 .inline-block {
     color: white;
