@@ -9,10 +9,6 @@ html {
    justify-content: space-between;
 }
 
-.logo {
-    color: white;
-}
-
 .inline-block {
     color: white;
     display: flex;
@@ -63,7 +59,7 @@ html {
 }
 
 .mySkills {
-    background-image: url("/images/myskills_img.png");
+    background-image: url("../images/myskills.png");
     background-size: 1100px;
     background-repeat: no-repeat;
     background-position-x: 150px;
@@ -99,7 +95,6 @@ html {
 .skills li {
     font-size: small;
     max-height: 200px;
-
 }
 
 .toolList {
