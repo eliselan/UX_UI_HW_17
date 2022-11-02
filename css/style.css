@@ -19,6 +19,21 @@ html {
     padding-right: 30px
 }
 
+.logo {
+        width: 200px;
+        height: 91px;
+        background: url('../images/whitelogo.png');
+        background-repeat: none;
+        background-position: center;
+        background-size: 210px;
+    }
+ 
+.logo:hover {
+        background: url('../images/betterlogo.gif');
+        background-size: contain;
+        margin-left: 10px;
+      }
+
 .inline-block li {
     padding: 10px;
     font-size: 25px;
@@ -67,6 +82,10 @@ html {
     font-family: "Kumbh_Sans", sans-serif;
 }
 
+.herotext h1 {
+    font-weight: lighter;
+}
+
 .mySkills {
     background-image: url("../images/myskills.png");
     background-size: 1100px;
@@ -79,7 +98,8 @@ html {
 
 .mySkills h2 {
     padding-left: 400px;
-    padding-top: 150px;
+    padding-top: 130px;
+    font-weight: normal;
 }
 
 .flexContainer {
@@ -101,6 +121,10 @@ html {
     column-count: 2;
 }
 
+.skills h3 {
+    font-weight: normal;
+}
+
 .skills li {
     font-size: small;
     max-height: 200px;
@@ -108,6 +132,10 @@ html {
 
 .toolList {
     column-count: 2;
+}
+
+.tools h3 {
+    font-weight: normal;
 }
 
 .tools li {
@@ -158,10 +186,10 @@ html {
     padding-left: 30px;
     align-items: center;
     font-family: "Kumbh_Sans", sans-serif;
-
+    justify-content: space-between;
 }
 .socials {
-    justify-content: flex-end;
+    justify-self: right;
     padding: 30px
 }
 
