@@ -1,11 +1,5 @@
 console.log("Your index.js file is loaded correctly!");
 
-$(".logo").on("hover", function(){
-    $('.logo').toggle();
-    $("").toggle();
+$(".inline-block").on("click", function(){
+    $('.dropdown').slideToggle("show");
 });
-
-$("img", "#gifs-rows").click(function() {
-    $('.preset-file').toggle();
-    $('.gif-file').toggle();
-  });
